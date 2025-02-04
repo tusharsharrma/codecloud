@@ -4,11 +4,11 @@ body {
 }
 
 .header {
-    display: flex;
+    /* display: flex;
     justify-content: center ;
     align-items: center;
     height: 4vh;
-    background-color: #abd1c6;
+    background-color: #abd1c6; */
     
     /* margin-left: 1em: */
     /* margin: 0; */
@@ -16,11 +16,11 @@ body {
 }
 
 .logo {
-    background-color: #004643;
-    padding: .2em 20%;
+    background-color: #181C14;
+    padding: .5em;
     color: #fffffe;
-    border-radius: 10px;
-    margin-top: 0.4em;
+    /* border-radius: 10px; */
+    /* margin-top: 0.4em; */
     font-weight: 700;
     font-size: 1.4em;
 }
@@ -31,7 +31,7 @@ body {
 }
 
 .editor-pane {
-    background-color: #abd1c6;
+    background-color: #1E201E;
 }
 
 .pane {

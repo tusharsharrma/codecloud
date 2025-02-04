@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className='header'>
         <div className="logo">
-            Code Cloud
+            CodeCloud
         </div>
     </div>
   )
