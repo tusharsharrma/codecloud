@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 4vh;
+    background-color: #abd1c6;
+    
+    /* margin-left: 1em: */
+    /* margin: 0; */
+    /* #727D73; */
+}
+
+.logo {
+    background-color: #004643;
+    padding: .2em 20%;
+    color: #fffffe;
+    border-radius: 10px;
+    margin-top: 0.4em;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+.main-app {
+    height: 95vh;
+    overflow: hidden;
+}
+
+.editor-pane {
+    background-color: #abd1c6;
+}
+
+.pane {
+    height: 50vh;
+    display: flex;
+}
+
+.editor-container {
+    flex-grow: 1;
+    flex-basis: 0;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+
+}
+
+.editor-title {
+    display: flex;
+    justify-content: space-between;
+    background-color: #263238;
+    color: azure;
+    padding: .5rem .5rem .5rem 1rem;
+    /* border-top-right-radius: .5rem; */
+}
+
+.code-mirror-wrapper {  /* zoom in and out to see how it takes care of changes in zoom */ 
+    flex-grow: 1;
+    overflow: hidden;
+
+    
+}
+
+
+.CodeMirror {
+    height: 100% !important;
+}
+
+
+iframe {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.editor-container.collapsed { 
+    flex-grow: 0;
+}
+
+.editor-container.collapsed .CodeMirror-scroll { /* stops editor container from explanding in collapsed mode if it contains text */
+    position: absolute;
+    overflow: hidden !important;
+}
+
+.max-min-btn {
+    margin-left: .5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+/* for underline - 
+border: none; Remove any default border
+border-bottom: 1px solid #3e4848; Add a thin solid line
+width: 100%; Full width of the container
+margin: 1em 0; Add spacing above and below
+ */
+
