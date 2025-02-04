@@ -6,7 +6,7 @@
 
 A live web code editor with real-time preview functionality built using React and CodeMirror. Edit HTML, CSS, and JavaScript simultaneously with collapsible panels! 🚀
 
-![CodeCloud Demo](https://via.placeholder.com/800x400.png?text=CodeCloud+Demo+Preview) <!-- Replace with actual screenshot -->
+<!-- ![CodeCloud Demo](https://via.placeholder.com/800x400.png?text=CodeCloud+Demo+Preview) Add actual screenshot path -->
 
 ## Features 🌟
 
